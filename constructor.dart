@@ -1,7 +1,6 @@
-// Constructors are special methods used to initialize objects in Dart.
-// Dart supports different types of constructors.
-// Default constructors are constructors without parameters.
-// Parameterized constructors are constructors with parameters.
+// Constructors are special methods used to initialize objects. Dart supports different types of constructors.
+// Default Constructor: If you don't define a constructor, Dart provides a default one.
+// Parameterized Constructor: You can define a constructor to accept parameters.
 
 class Book {
   late String title;
