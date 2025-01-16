@@ -1,23 +1,43 @@
-## This are some basic concept in dart
-1 Operator
-2 varialbe
-3 control Flow
-4 Loops
-5 Function
-6 Classes
-7 inheritance
-8 OOPS in dart
-9 Abstraction
-10 Encapsulation
-11 Mixin
-12 Class Modifier
-13 List
-14 sets
-15 Maps
-16 Enums
-17 Exception Handling
-18 Future
-19 Stream
-20 Creating Records
-21 Pattern & Pattern Matching
+## These are some basic concepts in Dart
+* Operator
+
+* Variable
+
+* Control Flow
+
+* Loops
+
+* Functions
+
+* Classes
+
+* Inheritance
+
+* OOPS in Dart
+
+* Abstraction
+
+* Encapsulation
+
+* Mixin
+
+* Class Modifier
+
+* Lists
+
+* Sets
+
+* Maps
+
+* Enums
+
+* Exception Handling
+
+* Future
+
+* Stream
+
+* Creating Records
+
+* Pattern & Pattern Matching
 
