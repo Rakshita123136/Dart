@@ -1,11 +1,18 @@
-//**Final: Declare a class as final ,meaning it cannot be useful when you want to create on immutable or closed class */
+// **Final Class**: Declares a class as `final`, meaning it **cannot be extended** by any other class.  
+// Useful when you want to create an **immutable or closed class** to prevent inheritance.  
+
 final class Calculator {
+  // A simple method to add two integers and print the sum.
   void add(int a, int b) {
-    print("sum :${a + b}");
+    print("Sum: ${a + b}");
   }
 }
 
 void main() {
+  // Creating an instance of the Calculator class.
   var calc = Calculator();
-  calc.add(3, 5);
+  
+  // Calling the add method to perform addition.
+  calc.add(3, 5); // Output: Sum: 8
 }
+
