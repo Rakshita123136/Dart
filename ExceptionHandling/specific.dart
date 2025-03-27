@@ -1,10 +1,15 @@
 void main() {
   try {
-    var result = 10 ~/ 0;
+    // Attempting to divide by zero, which throws an UnsupportedError
+    var result = 10 ~/ 0;  // The ~/ operator performs integer division
     print(result);
-  } on UnsupportedError catch (e) {
+  } 
+  // Catching only UnsupportedError exceptions
+  on UnsupportedError catch (e) {
     print("Cannot divide by zero: $e");
-  } finally {
+  } 
+  finally {
+    // The `finally` block always executes, regardless of whether an exception occurs or not
     print("This will always be printed");
   }
 }
